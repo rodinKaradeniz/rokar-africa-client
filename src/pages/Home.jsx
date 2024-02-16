@@ -26,19 +26,19 @@ function Home() {
       </Link>
       <div className="collageContainer">
         <div class="collageBox">
-          <img src={Cashew} />
+          <img src={Cashew} alt="" />
           <span>Cashew</span>
         </div>
         <div class="collageBox">
-          <img src={LongCayenne} />
+          <img src={LongCayenne} alt="" />
           <span>Long Cayenne</span>
         </div>
         <div class="collageBox">
-          <img src={RedDiamond} />
+          <img src={RedDiamond} alt="" />
           <span>Red Diamond</span>
         </div>
         <div class="collageBox">
-          <img src={Cloves} />
+          <img src={Cloves} alt="" />
           <span>Cloves</span>
         </div>
       </div>

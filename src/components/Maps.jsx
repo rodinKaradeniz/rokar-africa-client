@@ -3,7 +3,7 @@ import {
   GoogleMap,
   useLoadScript,
   MarkerF,
-  Marker,
+  // Marker,
 } from "@react-google-maps/api";
 
 const libraries = ["places"];
