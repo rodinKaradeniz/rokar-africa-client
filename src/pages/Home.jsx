@@ -22,7 +22,7 @@ function Home() {
         <p> Dar Es Salaam, Tanzania </p>
       </div>
       <Link to="/products">
-        <button> Our Products </button>
+        <button> Our hgkfkj </button>
       </Link>
       <div className="collageContainer">
         <div class="collageBox">
