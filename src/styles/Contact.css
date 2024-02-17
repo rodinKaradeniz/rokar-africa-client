@@ -4,9 +4,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   padding-top: 200px;
   padding-bottom: 100px;
   gap: 50px;

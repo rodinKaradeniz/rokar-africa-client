@@ -1,21 +1,23 @@
 import React, { useEffect } from "react";
 import ProductItem from "../components/ProductItem";
 import { ProductList } from "../helpers/ProductList";
-// import "../styles/ServicesAfrica.css";
+import "../styles/Products.css";
 
-function ServicesAfrica() {
+function Products() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
   return (
-    <div className="servicesAfrica">
-      <div className="servicesImage"></div>
-      <div className="servicesIntro">
-        <h1> Our Services </h1>
-        <h4> Lorem ipsum, dolor sit amet consectetur adipisicing elit. </h4>
+    <div className="products">
+      <div className="productsIntro">
+        <h1>Our Products</h1>
+        <h4>
+          Each product is a testament to our commitment to quality,
+          authenticity, and the art of elevating your culinary journey.
+        </h4>
       </div>
-      <div className="serviceList">
+      <div className="productList">
         {ProductList.map((serviceItem, key) => {
           return (
             <div className="productItemContainer">
@@ -33,4 +35,4 @@ function ServicesAfrica() {
   );
 }
 
-export default ServicesAfrica;
+export default Products;
