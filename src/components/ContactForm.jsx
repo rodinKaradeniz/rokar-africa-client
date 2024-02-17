@@ -7,13 +7,16 @@ function ContactForm() {
 
   const handleFormSubmit = async (formData) => {
     try {
-      const response = await fetch("http://localhost:5000/submitForm", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
+      const response = await fetch(
+        "https://formsubmit.co/mrodin.karadeniz@gmail.com",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
+        }
+      );
 
       if (response.ok) {
         console.log("Form submitted successfully");
