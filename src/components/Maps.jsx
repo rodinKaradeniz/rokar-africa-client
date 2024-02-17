@@ -9,8 +9,8 @@ import {
 const libraries = ["places"];
 
 const center = {
-  lat: 43.6532,
-  lng: 79.3832,
+  lat: -6.7443425794251,
+  lng: 39.27738346931208,
 };
 
 const Maps = (mapContainerStyle) => {

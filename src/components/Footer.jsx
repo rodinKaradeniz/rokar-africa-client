@@ -1,22 +1,23 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Logo from "../assets/logo.jpg";
 import "../styles/Footer.css";
 
 export const Footer = () => {
   return (
     <div className="footer">
       <div className="footerContent">
-        <div className="footerSection1">
-          <p>Icon</p>
-          <p>Ro-Kar Africa</p>
+        <div className="footerSection">
+          <img src={Logo} alt=""></img>
         </div>
-        <div className="footerSection2">
-          <p>Address 1</p>
-          <p>Address 2</p>
-          <p>Address 3</p>
+        <div className="footerSection">
+          <p>Chole Road, Gate No: 99</p>
+          <p>Masaki, Dar Es Salaam</p>
+          <p>Tanzania</p>
         </div>
-        <div className="footerSection3">
-          <p>Phone Number</p>
+        <div className="footerSection">
+          <p>Phone: +255 752 777 708</p>
+          <p>WhatsApp: +255 772 733 303</p>
           <p>rokarafrica@gmail.com</p>
         </div>
         <div className="footerLinks">

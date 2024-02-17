@@ -26,8 +26,9 @@ function Contact() {
         <div className="leftSide">
           <div className="leftSideInfo">
             <h2>Ro-Kar Africa</h2>
-            <p>Enter Address Here</p>
-            <p>Enter Phone Number Here</p>
+            <p>Chole Road, Gate No: 99, Masaki, Dar Es Salaam, Tanzania</p>
+            <p>Phone: +255 752 777 708</p>
+            <p>WhatsApp: +255 772 733 303</p>
             <p>rokarafrica@gmail.com</p>
           </div>
           <div className="mapsContainer">
