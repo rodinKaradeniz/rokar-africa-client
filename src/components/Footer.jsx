@@ -10,7 +10,9 @@ export const Footer = () => {
     <div className="footer">
       <div className="footerContent">
         <div className="footerSection">
-          <img src={Logo} alt=""></img>
+          <Link to="/">
+            <img src={Logo} alt="" />
+          </Link>
         </div>
         <div className="footerSection">
           <p>Chole Road, Gate No: 99</p>
