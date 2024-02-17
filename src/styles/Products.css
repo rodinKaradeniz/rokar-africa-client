@@ -43,12 +43,12 @@
     255,
     255,
     255,
-    0.9
+    0.8
   ); /* Semi-transparent white background */
-  padding: 20px;
+  padding: 40px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.5s ease-in-out;
 }
 
 .productItem:hover {
@@ -67,9 +67,14 @@
 
 .productInfo {
   flex: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 25vh;
 }
 
-.productInfo img {
+.productImageContainer img {
   max-width: 100%;
   max-height: 100%;
   border-radius: 8px;

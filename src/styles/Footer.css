@@ -23,7 +23,6 @@
 
 .footerContent {
   display: flex;
-  margin-left: 100px;
   gap: 80px;
   justify-content: center;
   align-items: center;
@@ -36,9 +35,18 @@
   justify-content: center;
 }
 
+.footerSection p {
+  margin: 7px;
+}
+
 .footerSection img {
   width: 100px;
   border-radius: 7px;
+}
+
+.footerPhoneInfo {
+  display: flex;
+  color: white;
 }
 
 .footerLinks {

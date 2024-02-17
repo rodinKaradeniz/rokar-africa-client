@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../assets/logo.jpg";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import CallIcon from "@mui/icons-material/Call";
 import "../styles/Footer.css";
 
 export const Footer = () => {
@@ -16,8 +18,14 @@ export const Footer = () => {
           <p>Tanzania</p>
         </div>
         <div className="footerSection">
-          <p>Phone: +255 752 777 708</p>
-          <p>WhatsApp: +255 772 733 303</p>
+          <div className="footerPhoneInfo">
+            <CallIcon />
+            <p>: +255 752 777 708</p>
+          </div>
+          <div className="footerPhoneInfo">
+            <WhatsAppIcon />
+            <p>: +255 772 733 303</p>
+          </div>
           <p>rokarafrica@gmail.com</p>
         </div>
         <div className="footerLinks">
