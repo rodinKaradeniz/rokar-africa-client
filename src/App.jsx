@@ -2,7 +2,6 @@ import "./App.css";
 import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
 import Home from "./pages/Home";
-// import ServicesGlobal from "./pages/ServicesGlobal";
 import Products from "./pages/Products";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
