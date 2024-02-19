@@ -31,7 +31,7 @@ const Maps = (mapContainerStyle) => {
     <div>
       <GoogleMap
         mapContainerStyle={mapContainerStyle.data}
-        zoom={10}
+        zoom={15}
         center={center}
       >
         <MarkerF position={center} />

@@ -3,29 +3,31 @@
   flex: 50%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   padding-top: 200px;
-  padding-bottom: 200px;
+  padding-bottom: 100px;
   gap: 50px;
 }
 
 .contactHeader {
   width: 80%;
   display: flex;
-  flex-flow: column nowrap;
+  flex-direction: column;
   align-items: center;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .contactBody {
   width: 80%;
-  height: 80vh;
+  /* height: 80vh; */
   display: flex;
   flex-direction: row;
 }
 
-.contact .leftSide {
-  height: 90vh;
+.contactBody .leftSide {
+  /* height: 90vh; */
   flex: 50%;
   display: flex;
   flex-direction: column;
@@ -47,6 +49,7 @@
 
 .leftSideInfo p {
   color: black;
+  margin-top: 1px;
 }
 
 .contact .rightSide {
@@ -63,5 +66,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 60px;
+  margin: 50px;
+}
+
+@media only screen and (max-width: 850px) {
+  .contactBody {
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+  }
 }

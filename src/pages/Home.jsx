@@ -15,11 +15,11 @@ function Home() {
     <div className="home">
       <div className="headerContainer">
         <h1> Ro-Kar Africa </h1>
-        <p>
+        <h4>
           From fiery peppers to buttery cashews and aromatic cloves, our flavors
           are nuts about making your culinary journey extraordinary.
-        </p>
-        <p> Dar Es Salaam, Tanzania </p>
+        </h4>
+        <h4> Dar Es Salaam, Tanzania </h4>
       </div>
       <Link to="/products">
         <button> Our Products </button>

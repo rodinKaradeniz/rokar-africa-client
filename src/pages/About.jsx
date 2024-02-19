@@ -126,7 +126,7 @@ function About() {
         </div>
       </div>
       <div className="faqSection">
-        <div className="faqSectionTitle">
+        <div className="faqSectionHeader">
           <h4 style={{ color: "white" }}> FAQ </h4>
           <h3 style={{ color: "white" }}> Frequently Asked Questions </h3>
         </div>
