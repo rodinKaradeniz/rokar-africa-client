@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/rokar-africa-client/static/css/main.95c38b5e.css",
-    "main.js": "/rokar-africa-client/static/js/main.b685a604.js",
-    "static/js/453.13a8b178.chunk.js": "/rokar-africa-client/static/js/453.13a8b178.chunk.js",
-    "static/media/longcayenne.jpg": "/rokar-africa-client/static/media/longcayenne.938e9e8fcc41d6628844.jpg",
-    "static/media/cashew1.jpg": "/rokar-africa-client/static/media/cashew1.6b9bd0a22042480389e1.jpg",
-    "static/media/cloves3.jpg": "/rokar-africa-client/static/media/cloves3.8a6d082587d797361506.jpg",
-    "static/media/cashew2.jpg": "/rokar-africa-client/static/media/cashew2.47512483d7eb2c5c6d07.jpg",
-    "static/media/cloves.jpg": "/rokar-africa-client/static/media/cloves.102d28e03ef70d43b2ed.jpg",
-    "static/media/reddiamond2.jpg": "/rokar-africa-client/static/media/reddiamond2.b5e30310f41602ab7231.jpg",
-    "static/media/reddiamond.jpg": "/rokar-africa-client/static/media/reddiamond.6f49490d54c2d2c9c708.jpg",
-    "static/media/longcayenne2.jpg": "/rokar-africa-client/static/media/longcayenne2.5852dc65cdbc413240e2.jpg",
-    "static/media/logo.jpg": "/rokar-africa-client/static/media/logo.0602c4383f447b29d344.jpg",
-    "index.html": "/rokar-africa-client/index.html",
-    "main.95c38b5e.css.map": "/rokar-africa-client/static/css/main.95c38b5e.css.map",
-    "main.b685a604.js.map": "/rokar-africa-client/static/js/main.b685a604.js.map",
-    "453.13a8b178.chunk.js.map": "/rokar-africa-client/static/js/453.13a8b178.chunk.js.map"
+    "main.css": "/static/css/main.95c38b5e.css",
+    "main.js": "/static/js/main.0e46e5bf.js",
+    "static/js/453.13a8b178.chunk.js": "/static/js/453.13a8b178.chunk.js",
+    "static/media/longcayenne.jpg": "/static/media/longcayenne.938e9e8fcc41d6628844.jpg",
+    "static/media/cashew1.jpg": "/static/media/cashew1.6b9bd0a22042480389e1.jpg",
+    "static/media/cloves3.jpg": "/static/media/cloves3.8a6d082587d797361506.jpg",
+    "static/media/cashew2.jpg": "/static/media/cashew2.47512483d7eb2c5c6d07.jpg",
+    "static/media/cloves.jpg": "/static/media/cloves.102d28e03ef70d43b2ed.jpg",
+    "static/media/reddiamond2.jpg": "/static/media/reddiamond2.b5e30310f41602ab7231.jpg",
+    "static/media/reddiamond.jpg": "/static/media/reddiamond.6f49490d54c2d2c9c708.jpg",
+    "static/media/longcayenne2.jpg": "/static/media/longcayenne2.5852dc65cdbc413240e2.jpg",
+    "static/media/logo.jpg": "/static/media/logo.0602c4383f447b29d344.jpg",
+    "index.html": "/index.html",
+    "main.95c38b5e.css.map": "/static/css/main.95c38b5e.css.map",
+    "main.0e46e5bf.js.map": "/static/js/main.0e46e5bf.js.map",
+    "453.13a8b178.chunk.js.map": "/static/js/453.13a8b178.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.95c38b5e.css",
-    "static/js/main.b685a604.js"
+    "static/js/main.0e46e5bf.js"
   ]
 }
