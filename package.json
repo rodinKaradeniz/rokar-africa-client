@@ -1,7 +1,7 @@
 {
   "name": "rokar-africa-client",
   "version": "0.1.0",
-  "homepage": "https://rokarafrica.com",
+  "homepage": "https://rodinkaradeniz.github.io/rokar-africa-client",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.3",
