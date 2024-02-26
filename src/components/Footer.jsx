@@ -9,7 +9,7 @@ export const Footer = () => {
   return (
     <div className="footer">
       <div className="footerContent">
-        <div className="footerSection">
+        <div className="footerLogoContainer">
           <Link to="/">
             <img src={Logo} alt="" />
           </Link>

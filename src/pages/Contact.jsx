@@ -1,16 +1,31 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import ContactForm from "../components/ContactForm";
 import Maps from "../components/Maps";
 import "../styles/Contact.css";
 
 function Contact() {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-
-  const mapContainerStyle = {
+  const [mapContainerStyle, setMapContainerStyle] = useState({
     width: "350px",
     height: "250px",
+  });
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    updateMapContainerStyle(); // Update mapContainerStyle initially
+    window.addEventListener("resize", updateMapContainerStyle); // Add event listener for window resize
+    return () => {
+      window.removeEventListener("resize", updateMapContainerStyle); // Cleanup event listener on component unmount
+    };
+  }, []);
+
+  const updateMapContainerStyle = () => {
+    // Adjust mapContainerStyle based on screen width
+    const screenWidth = window.innerWidth;
+    const newMapContainerStyle =
+      screenWidth >= 768
+        ? { width: "500px", height: "300px" }
+        : { width: "300px", height: "200px" };
+    setMapContainerStyle(newMapContainerStyle);
   };
 
   return (

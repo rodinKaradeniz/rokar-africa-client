@@ -4,17 +4,11 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 100px;
 }
 
 .footer p {
   color: white;
   font-size: small;
-}
-
-.footerEnd {
-  background-color: white;
-  padding-left: 50px;
 }
 
 .footerEnd p {
@@ -30,6 +24,18 @@
   padding-bottom: 20px;
 }
 
+.footerLogoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerLogoContainer img {
+  width: 100px;
+  border-radius: 7px;
+}
+
 .footerSection {
   display: flex;
   flex-direction: column;
@@ -39,11 +45,6 @@
 
 .footerSection p {
   margin: 7px;
-}
-
-.footerSection img {
-  width: 100px;
-  border-radius: 7px;
 }
 
 .footerPhoneInfo {
@@ -85,9 +86,18 @@
   transform: scale(1.1); /* Scale the element on hover */
 }
 
-@media only screen and (min-width: 1000px) {
+.footerEnd {
+  background-color: white;
+  padding-left: 2rem;
+}
+
+@media only screen and (max-width: 1200px) {
   .footerLinks {
-    display: inherit;
+    display: none;
+  }
+
+  .footerContent {
+    gap: 6rem;
   }
 }
 
@@ -97,6 +107,16 @@
   }
 
   .footerContent {
-    gap: 25px;
+    gap: 4rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .footerContent {
+    gap: 3rem;
+  }
+
+  .footerLogoContainer {
+    display: none;
   }
 }

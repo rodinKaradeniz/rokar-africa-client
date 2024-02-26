@@ -15,10 +15,10 @@ function About() {
     <div className="about">
       <div className="aboutIntro">
         <h1> About Us </h1>
-        <p>
+        <h4>
           We don't just sell products; we share a taste of Tanzania with every
           spice and nut, inviting you to savor the essence of our heritage.
-        </p>
+        </h4>
       </div>
       <div className="aboutSectionContainer">
         <div className="aboutSection">

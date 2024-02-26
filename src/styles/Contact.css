@@ -7,7 +7,7 @@
   align-items: center;
   padding-top: 200px;
   padding-bottom: 100px;
-  gap: 50px;
+  gap: 3rem;
 }
 
 .contactHeader {
@@ -16,18 +16,16 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 1rem;
 }
 
 .contactBody {
   width: 80%;
-  /* height: 80vh; */
   display: flex;
   flex-direction: row;
 }
 
 .contactBody .leftSide {
-  /* height: 90vh; */
   flex: 50%;
   display: flex;
   flex-direction: column;
@@ -69,7 +67,7 @@
   margin: 50px;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 768px) {
   .contactBody {
     width: 80%;
     flex-direction: column;

@@ -1,28 +1,23 @@
-/* Products.css */
-
-/* Global Styles */
 .products {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   padding-top: 200px;
   padding-bottom: 100px;
-  gap: 50px;
+  gap: 3rem;
 }
 
-/* Intro Section Styles */
 .productsIntro {
-  padding-top: 50px;
   width: 80%;
   display: flex;
-  flex-direction: column;
+  flex-flow: column nowrap;
   justify-content: center;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 1rem;
 }
 
-/* Product List Styles */
 .productList {
   width: 80%;
   display: flex;
@@ -39,11 +34,10 @@
   align-items: center;
 }
 
-/* Product Item Styles */
 .productItem {
   width: 100%;
   display: flex;
-  gap: 30px;
+  gap: 1rem;
   background-color: rgba(
     255,
     255,
@@ -62,9 +56,8 @@
 
 .productImageContainer {
   flex: 35%;
-  overflow: hidden;
+  /* overflow: hidden; */
   border-radius: 8px;
-  margin-bottom: 15px;
   object-fit: fill;
   width: 250px;
   height: 250px;
@@ -94,13 +87,9 @@
   color: #444;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 768px) {
   .productItem {
     flex-direction: column;
     align-items: center;
-  }
-
-  .productImageContainer {
-    margin-bottom: 5px;
   }
 }
