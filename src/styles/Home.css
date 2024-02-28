@@ -5,8 +5,8 @@
   flex-direction: column;
   gap: 50px;
   align-items: center;
-  padding-top: 150px;
-  padding-bottom: 100px;
+  padding-top: 10rem;
+  padding-bottom: 4rem;
 }
 
 .headerContainer {
