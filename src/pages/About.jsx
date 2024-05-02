@@ -44,7 +44,7 @@ function About() {
           <HandshakeIcon />
           <h3>Establishment</h3>
           <p>
-            In 2019, our company was founded with a vision to bring the vibrant
+            In 2021, our company was founded with a vision to bring the vibrant
             flavors of Tanzanian nuts and spices to the world. Inspired by the
             rich culinary heritage of the region, our mission is to provide
             premium quality products that embody the essence of authenticity and

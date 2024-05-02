@@ -40,7 +40,7 @@ function Contact() {
       <div className="contactBody">
         <div className="leftSide">
           <div className="leftSideInfo">
-            <h2>Ro-Kar Africa</h2>
+            <h2>Rokar Africa</h2>
             <p>Chole Road, Gate No: 99, Masaki</p>
             <p>Dar Es Salaam, Tanzania</p>
             <p>Phone: +255 752 777 708</p>

@@ -11,7 +11,7 @@ export const Navbar = () => {
           <img src={Logo} alt="" />
         </Link>
         <div className="navbarTitle">
-          <Link to="/">Ro-Kar Africa</Link>
+          <Link to="/">Rokar Africa</Link>
         </div>
       </div>
       <div className="rightSide">

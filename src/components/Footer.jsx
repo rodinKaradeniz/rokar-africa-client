@@ -22,11 +22,11 @@ export const Footer = () => {
         <div className="footerSection">
           <div className="footerPhoneInfo">
             <CallIcon />
-            <p>: +255 752 777 708</p>
+            <p> +255 752 777 708</p>
           </div>
           <div className="footerPhoneInfo">
             <WhatsAppIcon />
-            <p>: +255 772 733 303</p>
+            <p> +255 772 733 303</p>
           </div>
           <p>rokarafrica@gmail.com</p>
         </div>
@@ -38,7 +38,7 @@ export const Footer = () => {
         </div>
       </div>
       <div className="footerEnd">
-        <p>Ro-Kar Africa &copy; 2019 All Rights Reserved.</p>
+        <p>Rokar Africa &copy; 2021 All Rights Reserved.</p>
       </div>
     </div>
   );

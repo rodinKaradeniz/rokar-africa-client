@@ -14,7 +14,7 @@ function Home() {
   return (
     <div className="home">
       <div className="headerContainer">
-        <h1> Ro-Kar Africa </h1>
+        <h1> Rokar Africa </h1>
         <h4>
           From fiery peppers to buttery cashews and aromatic cloves, our flavors
           are nuts about making your culinary journey extraordinary.
