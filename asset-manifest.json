@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rokar-africa-client/static/css/main.032ffe24.css",
-    "main.js": "/rokar-africa-client/static/js/main.b685a604.js",
+    "main.js": "/rokar-africa-client/static/js/main.c9fc13c3.js",
     "static/js/453.13a8b178.chunk.js": "/rokar-africa-client/static/js/453.13a8b178.chunk.js",
     "static/media/longcayenne.jpg": "/rokar-africa-client/static/media/longcayenne.938e9e8fcc41d6628844.jpg",
     "static/media/cashew1.jpg": "/rokar-africa-client/static/media/cashew1.6b9bd0a22042480389e1.jpg",
@@ -14,11 +14,11 @@
     "static/media/logo.jpg": "/rokar-africa-client/static/media/logo.0602c4383f447b29d344.jpg",
     "index.html": "/rokar-africa-client/index.html",
     "main.032ffe24.css.map": "/rokar-africa-client/static/css/main.032ffe24.css.map",
-    "main.b685a604.js.map": "/rokar-africa-client/static/js/main.b685a604.js.map",
+    "main.c9fc13c3.js.map": "/rokar-africa-client/static/js/main.c9fc13c3.js.map",
     "453.13a8b178.chunk.js.map": "/rokar-africa-client/static/js/453.13a8b178.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.032ffe24.css",
-    "static/js/main.b685a604.js"
+    "static/js/main.c9fc13c3.js"
   ]
 }
